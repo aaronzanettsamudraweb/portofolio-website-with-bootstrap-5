@@ -1,0 +1,69 @@
+.jumbotron {
+    padding-top: 6.5rem;
+    background-color: #b1d9ff;
+}
+
+section {
+    padding-top: 80px;
+}
+
+.scroll {
+    font-size: calc(1.5vw + 15px);
+    text-align: center;
+    color: rgb(34, 34, 34);
+    animation: animasi-scroll 0.5s linear infinite alternate;
+}
+
+@keyframes animasi-scroll {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, -15px);
+    }
+}
+
+#projects {
+    background-color: #b1d9ff;
+}
+
+#contact {
+    background-color: #b1d9ff;
+}
+
+footer {
+    background-color: #0d6efd;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 15pw;
+}
+footer i {
+    color: red;
+}
+
+.gambar-gallery > * {
+    padding: 0;
+    margin: 0;
+}
+
+/* akal akalan */
+.lead span {
+    opacity: 0;
+}
+
+@keyframes animasi-gambar {
+    0% {
+        opacity: 0;
+        transform: translate(0, -120px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+.img-thumbnail {
+    animation: animasi-gambar 1s linear 1 forwards;
+}
